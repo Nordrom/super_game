@@ -26,3 +26,14 @@
 .test {
   width: 20px;
 }
+.points{
+    background: #CECECE;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: green;
+    font-weight: bold;
+}

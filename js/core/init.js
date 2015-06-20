@@ -1,10 +1,11 @@
 var level = 1;
+var points = 0;
 var rules = new Rules;
 function Init(){
     
 }
 
-//Старт игры
+//пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 Init.prototype.start= function(){
     generator = new Generator();
     generator.run();
