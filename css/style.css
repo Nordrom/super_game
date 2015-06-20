@@ -23,6 +23,12 @@
   padding-bottom: 50%;
   border-radius: 50%;
 }
+.box:hover{
+    opacity: 0.8;
+}
+.box:active{
+    background: green;
+}
 .test {
   width: 20px;
 }
