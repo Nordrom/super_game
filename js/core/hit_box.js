@@ -56,6 +56,18 @@ Hit_box.prototype.box_move = function(box){
     }
     box.animate({'top': offsetTop + 'px', 'left': offsetLeft + 'px'}, 1500);     
 }
+Hit_box.prototype.increasePoints = function(){
+    points++;
+};
+Hit_box.prototype.insertPointsBlock = function(){
+    if($('.points').length == 0)
+        $('#field').append('<div class="points"></div>');
+};
+Hit_box.prototype.insertPoints = function(){
+    $('.points').text('Your points is: ' + points);
+};
 Hit_box.prototype.hit = function(box){
-    box.remove();    
+    box.remove();
+    this.increasePoints();
+    this.insertPoints();
 }

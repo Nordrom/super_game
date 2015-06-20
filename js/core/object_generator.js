@@ -21,6 +21,7 @@ Generator.prototype.generate=function(){
         var box_body = box.get_box();
         box_body.appendTo($('#field'));         
     },this.get_spawn_speed());
+    box.insertPointsBlock();
     return spawn_interwal;
 }
 Generator.prototype.get_spawn_speed=function(){
