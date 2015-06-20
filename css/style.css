@@ -29,9 +29,6 @@
 .box:active{
     background: green;
 }
-.test {
-  width: 20px;
-}
 .points{
     background: #CECECE;
     width: 200px;
